@@ -200,6 +200,7 @@ letter-spacing: 0;
  .article__text {
   font-size: 16px;
   line-height: 22px;
+  margin-bottom: 8px;
  }
 
  .article__source {
@@ -207,7 +208,7 @@ letter-spacing: 0;
   line-height: 20px;
   letter-spacing: 0.4px;
   text-transform: uppercase;
-  margin: 8px 0 0 0;
+  margin: auto 0 0 0;
  }
 
  .article__button {
@@ -225,9 +226,7 @@ letter-spacing: 0;
   .article__image-wrapper {
    padding-bottom: calc(196/288 * 100%);
   }
-  .article__source {
-   margin-top: 8px;
-  }
+
   .article__tooltip {
    top:16px;
    right: 60px;
