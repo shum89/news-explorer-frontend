@@ -1,0 +1,266 @@
+{
+  "status": "ok",
+  "totalResults": 38,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "The Guardian"
+      },
+      "author": "Peter Beaumont",
+      "title": "Trump supporters protest at Arizona vote counting centre - The Guardian",
+      "description": "Local TV says some protesters were carrying weapons as staff continued to tally ballots",
+      "url": "https://www.theguardian.com/us-news/2020/nov/05/arizona-trump-supporters-protest-at-voting-centre-over-early-election-call",
+      "urlToImage": "https://i.guim.co.uk/img/media/e34ccbf00ac1b49e09d12e63676a9c8cf34e487c/0_0_3500_2101/master/3500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=30bc895b097d6cbbc668dcad9b471616",
+      "publishedAt": "2020-11-05T12:10:00Z",
+      "content": "Dozens of Donald Trump supporters converged on a vote-counting centre in the key battleground state of Arizona as election staff continued to plough through uncounted ballots with local sheriffs depu… [+4555 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "By <a href=\"/profiles/jessie-yeung\">Jessie Yeung</a>, <a href=\"/profiles/brett-mckeehan\">Brett McKeehan</a> and Lauren Kent, CNN",
+      "title": "The latest on the coronavirus pandemic: Live updates - CNN",
+      "description": "The coronavirus pandemic has brought countries to a standstill. In many places, as countries reopen, Covid-19 cases are on the rise. Follow here for the latest.",
+      "url": "https://www.cnn.com/world/live-news/coronavirus-pandemic-11-05-20-intl/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/200130165125-corona-virus-cdc-image-super-tease.jpg",
+      "publishedAt": "2020-11-05T11:57:00Z",
+      "content": "Australia has secured another 50 million doses of Covid-19 vaccines, bringing the countrys total purchase to more than 134 million doses, Prime Minister Scott Morrison announced in a press release on… [+1072 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "BBC News"
+      },
+      "author": "https://www.facebook.com/bbcnews",
+      "title": "Israel rebuked for 'biggest demolition of Palestinian homes in years' - BBC News",
+      "description": "The UN rebukes Israel for carrying out what it says was the biggest such demolition for a decade.",
+      "url": "https://www.bbc.com/news/world-middle-east-54823660",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/0305/production/_115237700_mediaitem115237699.jpg",
+      "publishedAt": "2020-11-05T11:36:00Z",
+      "content": "image captionPictures from the scene showed the area strewn with debris after the demolition\r\nThe United Nations has rebuked Israel for carrying out what it said was the biggest demolition of Palesti… [+2320 chars]"
+    },
+    {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": "Keith Zhai, Julie Zhu, Cheng Leng",
+      "title": "How billionaire Jack Ma fell to earth and took Ant's mega IPO with him - Reuters",
+      "description": "They say talk is cheap. Tell that to Jack Ma.",
+      "url": "https://www.reuters.com/article/uk-ant-group-ipo-suspension-regulators-i-idUKKBN27L1B5",
+      "urlToImage": "https://static.reuters.com/resources/r/?m=02&d=20201105&t=2&i=1540100658&r=LYNXMPEGA40SY&w=800",
+      "publishedAt": "2020-11-05T10:55:00Z",
+      "content": "SINGAPORE/HONG KONG/BEIJING (Reuters) - They say talk is cheap. Tell that to Jack Ma.\r\nFILE PHOTO: Alibaba Group co-founder and Executive Chairman Jack Ma attends Alibaba Group's 11.11 Singles' Day g… [+8937 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Nintendo Life"
+      },
+      "author": "Nintendo Life",
+      "title": "Here Are The Top Ten ﻿Best-Selling Nintendo Switch Games As Of September 2020 - Nintendo Life",
+      "description": "It's a very familiar list",
+      "url": "https://www.nintendolife.com/news/2020/11/here_are_the_top_ten_best-selling_nintendo_switch_games_as_of_september_2020",
+      "urlToImage": "https://images.nintendolife.com/16f02fb204dad/1280x720.jpg",
+      "publishedAt": "2020-11-05T10:30:00Z",
+      "content": "Nintendo has provided updated sales figures for its best-selling games on Switch, giving us a great look at which titles have performed the best since the console launched back in 2017.\r\nAnimal Cross… [+1315 chars]"
+    },
+    {
+      "source": {
+        "id": "politico",
+        "name": "Politico"
+      },
+      "author": "Associated Press",
+      "title": "Riot declared in Portland as rioters smash windows - POLITICO",
+      "description": "Gov. Kate Brown activated the use of the state National Guard to help local law enforcement manage the unrest, according to the sheriff's office.",
+      "url": "https://www.politico.com/news/2020/11/05/portland-protests-election-2020-434221",
+      "urlToImage": "https://static.politico.com/af/1a/e47902c34e879744ac29247dbb33/ap20310311643069-1.jpg",
+      "publishedAt": "2020-11-05T09:19:00Z",
+      "content": "The Oregon National Guard had been on standby. Browns order places law enforcement agencies under the joint command of the Oregon State Police and Multnomah County Sheriffs Department, which allows t… [+2014 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Mark Thompson, CNN Business",
+      "title": "The UK economy is heading back into recession - CNN",
+      "description": "The Bank of England is pumping another £150 billion ($195 billion) into the UK economy after warning of a double-dip recession because of the coronavirus pandemic and an uncertain outlook because of Brexit.",
+      "url": "https://www.cnn.com/2020/11/05/economy/uk-economy-recession/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/201105040804-bank-of-england-0920-restricted-super-tease.jpg",
+      "publishedAt": "2020-11-05T09:16:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Madeline Holcombe, CNN",
+      "title": "Tropical Depression Eta has more flooding in store for Central America before it heads toward the US - CNN",
+      "description": "Parts of Central America could still see life-threatening flash flooding as Tropical Depression Eta pummels the region with rain before heading toward the US coast.",
+      "url": "https://www.cnn.com/2020/11/05/weather/tropical-depression-eta-thursday/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/201104170022-03-hurricane-eta-1104-nicaragua-super-tease.jpg",
+      "publishedAt": "2020-11-05T09:05:00Z",
+      "content": "(CNN)Parts of Central America could still see life-threatening flash flooding as Tropical Depression Eta pummels the region with rain before heading toward the US coast.\r\nEta might have weakened to 3… [+1677 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Fox Business"
+      },
+      "author": "Associated Press",
+      "title": "Wall Street stock futures higher as US presidential election unresolved - Fox Business",
+      "description": "Asian shares advanced Thursday after stocks rallied on Wall Street as investors embraced the upside of more gridlock in Washington, sending the S&P 500 index up 2.2% while the outcome of the U.S. presidential election remained in limbo.",
+      "url": "https://www.foxbusiness.com/markets/wall-street-stock-futures-higher-as-us-presidential-election-unresolved",
+      "urlToImage": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2020/10/0/0/Wallstreet-cropped-326a.jpg?ve=1&tl=1",
+      "publishedAt": "2020-11-05T08:43:56Z",
+      "content": "Asian shares advanced Thursday after stocks rallied on Wall Street as investors embraced the upside of more gridlock in Washington, sending the S&amp;P 500 index up 2.2% while the outcome of the U.S.… [+5060 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CNBC"
+      },
+      "author": "Holly Ellyatt",
+      "title": "Covid vaccine maker AstraZeneca expects to release trial data by year-end - CNBC",
+      "description": "British pharmaceutical giant AstraZeneca said Thursday it expects vaccine data to be available this year as it reported a solid rise in third-quarter sales.",
+      "url": "https://www.cnbc.com/2020/11/05/astrazeneca-coronavirus-vaccine-drugmaker-under-pressure-to-deliver.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/106701783-1603301935319-ast.jpg?v=1603301965",
+      "publishedAt": "2020-11-05T08:29:00Z",
+      "content": "British pharmaceutical giant AstraZeneca said Thursday it expects vaccine data to be available this year as it reported a solid rise in third-quarter sales.\r\n\"Results from late-stage trials are antic… [+2273 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "HuffPost"
+      },
+      "author": "Lee Moran",
+      "title": "Politicians Read Mean Tweets And Adam Schiff Hammers Donald Trump In Reply - HuffPost",
+      "description": "Ted Cruz, Nancy Pelosi, Bernie Sanders, Elizabeth Warren, Cory Booker and more took part in the \"Political Edition\" of Jimmy Kimmel's \"Mean Tweets.\"",
+      "url": "https://www.huffpost.com/entry/mean-tweets-politicians-jimmy-kimmel-donald-trump_n_5fa3ad4ac5b69c36d952563d",
+      "urlToImage": "https://img.huffingtonpost.com/asset/5fa3b13b2900001522c6b5c9.jpeg?cache=PQLmmCYPX6&ops=1200_630",
+      "publishedAt": "2020-11-05T08:25:00Z",
+      "content": "Politicians from both sides of the aisle took part in Jimmy Kimmel’s “Mean Tweets” bit that aired Wednesday night.\r\nAnd after Rep. Adam Schiff (D-Calif.) read an insulting post that President Donald … [+497 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Billboard"
+      },
+      "author": "Paul Grein",
+      "title": "With No Live Performances on This Year’s Rock and Roll Hall of Fame Induction Program, Here’s How the Producer - Billboard",
+      "description": "Fans who tune in to HBO’s presentation of the Rock and Roll Hall of Fame induction ceremony on Saturday (Nov. 7) will notice some changes from the show’s usual format.",
+      "url": "https://www.billboard.com/articles/columns/rock/9478498/rock-and-roll-hall-of-fame-induction-program-interview-joel-peresman",
+      "urlToImage": "https://static.billboard.com/files/2020/11/Joel-Peresman-Rock-Hall-2010-Billboard-1548-1604523338-compressed.jpg",
+      "publishedAt": "2020-11-05T07:36:10Z",
+      "content": "Peresman thinks the highlights packages turned out so well that he hopes to have them as the basis for a spinoff show in the future.\r\n[Once the pandemic is over], the plan is to go back to the format… [+4649 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Madeline Holcombe, CNN",
+      "title": "A Fort Hood soldier has been arrested in the killing of Chelsea Cheatham - CNN",
+      "description": "A Fort Hood soldier has been arrested in connection with the 2019 murder of 32-year-old Chelsea Lynell Cheatham in Killeen, Texas, according to a news release from the Killeen Police Department.",
+      "url": "https://www.cnn.com/2020/11/05/us/fort-hood-soldier-arrested-cheatham/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/201104225931-cory-grafton-mugshot-super-tease.jpg",
+      "publishedAt": "2020-11-05T07:23:00Z",
+      "content": "(CNN)A Fort Hood soldier has been arrested in connection with the 2019 killing of 32-year-old Chelsea Lynell Cheatham in Killeen, Texas, according to a news release from the Killeen Police Department… [+1156 chars]"
+    },
+    {
+      "source": {
+        "id": "fox-news",
+        "name": "Fox News"
+      },
+      "author": "Associated Press",
+      "title": "US coronavirus cases set record, deaths rising -- with crisis central to Trump-Biden election battle - Fox News",
+      "description": "New confirmed cases of the coronavirus in the U.S. have climbed to an all-time high of more than 86,000 per day on average, in a glimpse of the worsening crisis that lies ahead for the winner of the presidential election.",
+      "url": "https://www.foxnews.com/health/us-coronavirus-cases-set-record-deaths-rising-with-crisis-central-to-trump-biden-election-battle",
+      "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2020/11/voting-new-hampshire.jpg",
+      "publishedAt": "2020-11-05T06:56:16Z",
+      "content": "New confirmed cases of the coronavirus in the U.S. have climbed to an all-time high of more than 86,000 per day on average, in a glimpse of the worsening crisis that lies ahead for the winner of the … [+6920 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "ScienceAlert"
+      },
+      "author": "Clare Watson",
+      "title": "Startling Case Study Finds Asymptomatic COVID-19 Carrier Who Shed Virus For 70 Days - ScienceAlert",
+      "description": "If there's one thing we know about SARS-CoV-2, is that its effects on people vary. A lot. As the pandemic rolls on, this coronavirus continues to bring new surprises.",
+      "url": "https://www.sciencealert.com/case-study-reveals-rare-patient-who-showed-no-symptoms-but-shed-infectious-sars-cov-2-for-70-days",
+      "urlToImage": "https://www.sciencealert.com/images/2020-11/processed/NIAID-RML-2_1024.jpg",
+      "publishedAt": "2020-11-05T06:29:58Z",
+      "content": "If there's one thing we know about SARS-CoV-2, is that its effects on people vary. A lot. As the pandemic rolls on, this coronavirus continues to bring new surprises.\r\nA team of researchers and docto… [+5952 chars]"
+    },
+    {
+      "source": {
+        "id": "fox-news",
+        "name": "Fox News"
+      },
+      "author": "Joseph Wulfsohn",
+      "title": "The Onion mocks Mitch McConnell opponent's $90M war chest, says she burned cash on 'lavish concession bonanza' - Fox News",
+      "description": "The satirical newspaper The Onion had some fun at the expense of defeated Democratic U.S. Senate candidate Amy McGrath on how she would use the massive funds she raised for her campaign.",
+      "url": "https://www.foxnews.com/media/the-onion-amy-mcgrath-lavish-concession-bonanza",
+      "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2020/06/AP20171648292033.jpg",
+      "publishedAt": "2020-11-05T05:42:06Z",
+      "content": "The satirical newspaper The Onion had some fun at the expense of defeated Democratic U.S. Senate candidate Amy McGrath on how she would use the massive funds she raised for her campaign. \r\nOn Tuesday… [+1809 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Reuters and James Fraser, CNN",
+      "title": "Denmark plans to cull up to 17 million mink to stop mutated coronavirus - CNN",
+      "description": "Denmark, the world's largest producer of mink furs, plans to cull all mink in the country to contain a mutated form of novel coronavirus.",
+      "url": "https://www.cnn.com/2020/11/05/europe/denmark-mink-cull-coronavirus-intl-hnk-scli/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/201105112017-01-denmark-mink-cull-super-tease.jpg",
+      "publishedAt": "2020-11-05T05:26:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "New York Post"
+      },
+      "author": "Ben Feuerherd",
+      "title": "National Guard called into Portland amid 'widespread violence' after election - New York Post ",
+      "description": "The Oregon National Guard was called into the city of Portland after protests in the city turned violent Wednesday night, police said. Local authorities declared a riot after groups of demonstrator…",
+      "url": "https://nypost.com/2020/11/04/national-guard-called-into-portland-for-post-election-violence/",
+      "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2020/11/Election-2020-Protests-Oregon-3.jpg?quality=90&strip=all&w=1200",
+      "publishedAt": "2020-11-05T04:42:00Z",
+      "content": "The Oregon National Guard was called into the city of Portland after protests in the city turned violent Wednesday night, police said.\r\nLocal authorities declared a riot after groups of demonstrators… [+1207 chars]"
+    },
+    {
+      "source": {
+        "id": "newsweek",
+        "name": "Newsweek"
+      },
+      "author": "Meghan Roos",
+      "title": "Trump's Election Lawsuits Are 'Without Merit,' Democratic Lawyers, State Officials Say - Newsweek",
+      "description": "State leaders in Michigan and Pennsylvania said they will continue counting votes despite the Trump campaign's legal challenges.",
+      "url": "https://www.newsweek.com/trumps-election-lawsuits-are-without-merit-democratic-lawyers-state-officials-say-1545002",
+      "urlToImage": "https://d.newsweek.com/en/full/1664781/tcf-center-detroit.jpg",
+      "publishedAt": "2020-11-05T03:57:19Z",
+      "content": "As states continued counting votes on Wednesday with no clear winner yet in the presidential election, President Donald Trump's campaign launched a slew of lawsuits related to the ballot-counting pro… [+4910 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "9News.com KUSA"
+      },
+      "author": "Makayla  Richards",
+      "title": "Active COVID-19 outbreaks at Colorado social gatherings, restaurants, schools and more - 9News.com KUSA",
+      "description": "There are 587 COVID-19 outbreaks that are listed as active in Colorado as of Nov. 4.",
+      "url": "https://www.9news.com/article/news/health/coronavirus/colorado-covid-outbreaks-list-schools-restaurants-grocery-stores/73-3852a7c3-c8a3-43f2-b794-be1c77e2ce3c",
+      "urlToImage": "https://media.9news.com/assets/KCEN/images/0f6124dc-652d-40eb-9b52-2d5d9473d0bb/0f6124dc-652d-40eb-9b52-2d5d9473d0bb_1140x641.jpg",
+      "publishedAt": "2020-11-05T03:32:00Z",
+      "content": "COLORADO, USA There are 587 active COVID-19 outbreaks in Colorado that have happened everywhere from schools to offices to child care centers to a group bunco night.\r\nThat's according to the latest o… [+4896 chars]"
+    }
+  ]
+}
