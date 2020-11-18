@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
+import CurrentUserContext from '../../contexts/CurrentUserContext';
 import headerButtonIconDark from '../../images/logout_dark.svg';
 import headerButtonIconLight from '../../images/logout_light.svg';
 import Burger from '../Burger/Burger';
@@ -8,6 +9,7 @@ const Header = ({
   isMobileMenuOpen, setMobileMenu, isLoggedIn, onLogout, onAuth,
 }) => {
   const location = useLocation();
+  const currentUser = React.useContext(CurrentUserContext);
   const headerClassLocation = location.pathname === '/' ? '' : 'header_bg_light';
   const headerLogoFont = (location.pathname === '/saved-news' && !isMobileMenuOpen) ? 'header__logo_font_black' : '';
   const headerLinkFont = (location.pathname === '/saved-news' && !isMobileMenuOpen) ? 'header__navigation-link_font_black' : '';
@@ -35,7 +37,7 @@ const Header = ({
             <li className="header__navigation-item">
               {isLoggedIn ? (
                 <button className={`header__button ${headerButtonDark}`} type="button" aria-label="button for logout" onClick={onLogout}>
-                  <p className="header__button-name">Грета</p>
+                  <p className="header__button-name">{currentUser.name}</p>
                   <img className="header__button-icon" alt="header logout icon" src={(location.pathname === '/' || isMobileMenuOpen) ? headerButtonIconLight : headerButtonIconDark} />
                 </button>
               ) : (

@@ -3,7 +3,7 @@ import Popup from '../Popup/Popup';
 import reducerForForm from '../../utils/formHelper';
 /**
  * initial state of form elements
- * @type {{inputValidities: {nameValidity: boolean, aboutValidity: boolean}, inputErrors: {nameError: string, aboutError: string}, formValid: boolean, inputValues: {name: string, about: string}}}
+ * @type {{inputValidities: {nameValidity: boolean, aboutValidity: boolean}, inputErrors: {nameError: string, aboutError: string}, formValid: boolean, inputValues: {formName: string, about: string}}}
  */
 const initialFormValueState = {
   inputValues: {
@@ -24,18 +24,16 @@ const initialFormValueState = {
   formValid: false,
 };
 
-function reducerForEditProfileForms(state, action) {
-  /**
-   * setting initial values from context
-   */
+function reducerForFormAuth(state, action) {
   return reducerForForm(state, action, initialFormValueState);
 }
 
 const AuthPopup = ({
-  isOpen, onClose, handleChangePopup, onAuth, name,
+  isOpen, onClose, handleChangePopup, onAuth, formName, popupError,
 }) => {
-  const [formState, dispatchForm] = React.useReducer(reducerForEditProfileForms, initialFormValueState);
+  const [formState, dispatchForm] = React.useReducer(reducerForFormAuth, initialFormValueState);
   const { nameError, emailError, passwordError } = formState.inputErrors;
+  const { name, password, email } = formState.inputValues;
   const handleInput = (e) => {
     dispatchForm({
       type: 'DISPATCH',
@@ -46,11 +44,22 @@ const AuthPopup = ({
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    onAuth();
+    onAuth(name, password, email);
+    dispatchForm({
+      type: 'RESET',
+    });
   };
+  React.useEffect(() => {
+    /**
+     * reseting form with a certain action type
+     */
+    dispatchForm({
+      type: 'RESET',
+    });
+  }, [isOpen]);
 
   return (
-    <Popup isOpen={isOpen} onSubmit={handleSubmit} onClose={onClose} handleChangePopup={handleChangePopup} name={name}>
+    <Popup isOpen={isOpen} popupError={popupError} onSubmit={handleSubmit} onClose={onClose} handleChangePopup={handleChangePopup} name={formName}>
       <fieldset className="popup__fieldset">
         <legend className="popup__title">Регистрация</legend>
         <label className="popup__label">
@@ -63,6 +72,7 @@ const AuthPopup = ({
             maxLength="30"
             placeholder="Введите почту"
             onChange={handleInput}
+            value={email}
           />
           <span className="popup__input-error">{emailError}</span>
         </label>
@@ -78,6 +88,7 @@ const AuthPopup = ({
             placeholder="Введите пароль"
             onChange={handleInput}
             required
+            value={password}
           />
           <span className="popup__input-error">{ passwordError }</span>
         </label>
@@ -92,6 +103,7 @@ const AuthPopup = ({
             placeholder="Введите имя"
             onChange={handleInput}
             required
+            value={name}
           />
           <span className="popup__input-error">{ nameError }</span>
         </label>

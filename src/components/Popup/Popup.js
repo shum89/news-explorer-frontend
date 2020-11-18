@@ -3,7 +3,7 @@ import React from 'react';
 /**
  * popup with form component
  * @property {Object} props
- * @property {string} name - name for a popup class type
+ * @property {string} formName - formName for a popup class type
  * @property {string} title - title for a popup
  * @property {function} onClose - handler for closing popup
  * @property {Boolean} isOpen - popup state
@@ -11,7 +11,7 @@ import React from 'react';
 function Popup({
   children, name, title,
   onClose, isOpen, onSubmit,
-  handleChangePopup,
+  handleChangePopup, popupError,
 }) {
   return (
     <div className={`popup ${isOpen ? 'popup_opened' : null}`}>
@@ -22,6 +22,7 @@ function Popup({
           {name === 'tooltip' ? '' : 'или'}
           <span className="popup__link" onClick={handleChangePopup}>{name !== 'login' ? ' Войти' : ' Зарегистрироваться' }</span>
         </span>
+        <span className="popup__error">{popupError}</span>
       </form>
       <div className="popup__overlay" onClick={onClose} />
     </div>

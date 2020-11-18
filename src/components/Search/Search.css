@@ -38,6 +38,20 @@
 
 }
 
+.search__input-error {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 24px;
+    font-size: 16px;
+    background-color: white;
+    color: red;
+}
+
+.search__input:focus + .search__input-error {
+    display: none;
+}
+
 .search__subtitle {
     font-family: var(--font-text);
     font-style: normal;
@@ -158,6 +172,9 @@
     .search__input {
         margin-bottom: 32px;
         padding-left: 16px;
+    }
+    .search__input-error {
+        top: calc(50% - 44px);
     }
     .search__button {
         position: relative;
