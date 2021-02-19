@@ -1,7 +1,5 @@
 .articles {
-    padding-top: 80px;
-    padding-left: 104px;
-    padding-right: 104px;
+    padding: 80px 104px;
     display: flex;
     flex-direction: column;
 }
@@ -40,7 +38,7 @@
     width: 288px;
     border-radius: 80px;
     background: #FFFFFF;
-    margin: 64px 0 80px 0;
+    margin: 64px 0 0;
     border-color: transparent;
     cursor: pointer;
 }

@@ -184,6 +184,17 @@
     height: 14px;
     margin-top: 3px;
 }
+.popup__error {
+    font-family:var(--font-input);
+    height: 14px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 164px;
+    font-size: 12px;
+    color: red;
+    text-align: center;
+}
 
 @media screen and (max-width: 534px) {
     .popup__form {

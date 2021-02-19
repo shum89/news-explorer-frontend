@@ -1,8 +1,11 @@
 .main {
     width: 100%;
+    background-color: white;
 }
 .main__news-container {
     background-color: #F5F6F7;
+    display: flex;
+    justify-content: center;
 }
 .main__not-found {
     display: flex;

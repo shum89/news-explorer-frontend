@@ -1,23 +1,30 @@
 import React from 'react';
+import { useLocation } from 'react-router-dom';
 import Article from '../Article/Article';
-import news from '../../utils/news.json';
 
-const ArticleList = ({ isLoggedIn, isSaved, onSaveIcon }) => (
-  <section className="articles">
-    {isLoggedIn && <h2 className="articles__title">Результаты поиска</h2>}
-    <ul className="articles__list">
-      {news.articles.map((article, index) => (
-        <Article
-          article={article}
-          key={index}
-          isLoggedIn={isLoggedIn}
-          isSaved={isSaved}
-          onSaveIcon={onSaveIcon}
-        />
-      ))}
-    </ul>
-    <button className="articles__button" type="button">Показать еще</button>
-  </section>
-);
+const ArticleList = ({
+  isLoggedIn, isSaved, onSaveIcon, news, onShowMore, isButtonShown, onDeleteButton,
+}) => {
+  const location = useLocation();
+  return (
+    <section className="articles">
+      {location.pathname !== '/saved-news' && <h2 className="articles__title">Результаты поиска</h2>}
+      <ul className="articles__list">
+        {news.map((article, index) => (
+          <Article
+            article={article}
+            key={index}
+            isLoggedIn={isLoggedIn}
+            isSaved={isSaved}
+            onSaveIcon={onSaveIcon}
+            onDeleteButton={onDeleteButton}
+          />
+        ))}
+      </ul>
+      {!isButtonShown && location.pathname === '/'
+                && <button className="articles__button" type="button" onClick={onShowMore}>Показать еще</button>}
+    </section>
+  );
+};
 
 export default ArticleList;

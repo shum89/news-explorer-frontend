@@ -2,7 +2,7 @@
  * helper function for a reducer to validate and dispatch values
  * @param state  state
  * @param action
- * @param action.field field name
+ * @param action.field field formName
  * @param action.type action type
  * @param action.value field value
  * @param initialFormValueState initial values
@@ -20,7 +20,6 @@ const reducerForForm = (state, { field, type, value }, initialFormValueState) =>
         ...state.inputValidities,
         [`${field}Validity`]: value.validity.valid,
       };
-      console.log(updatedValidities);
       const updateErrors = {
         ...state.inputErrors,
         [`${field}Error`]: value.validationMessage,
